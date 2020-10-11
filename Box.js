@@ -7,6 +7,7 @@ class Box{
       this.color = color(random(0, 255), random(0, 255), random(0, 255));
       this.width = width;
       this.height = height;
+      this.Visiblity = 255;
       World.add(world, this.body);
     }
     display(){
