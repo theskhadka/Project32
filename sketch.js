@@ -99,7 +99,30 @@ function draw() {
   block71.display();
   block81.display();
   block91.display();
+  
+  block1.score();
+  block2.score();
+  block3.score();
+  block4.score();
+  block5.score();
+  block6.score();
+  block7.score();
+  block8.score();
+  block9.score();
+  block11.score();
+  block21.score();
+  block31.score();
+  block41.score();
+  block51.score();
+  block61.score();
+  block71.score();
+  block81.score();
+  block91.score();
+
+  
+  
   sling1.display();
+  
   fill('yellow');
   rect(polygon.position.x-20, polygon.position.y-10, 50, 50);
 }
