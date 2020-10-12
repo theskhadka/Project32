@@ -120,7 +120,7 @@ function keyPressed(){
 }
 
 async function getBackgroundImg(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/America/Los_Angeles");
+  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var responseJSON = await response.json();
 
   var datetime = responseJSON.datetime;
